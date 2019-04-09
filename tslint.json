@@ -1,0 +1,25 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-config-airbnb"
+  ],
+  "jsRules": {},
+  "rules": {
+    "ordered-imports": false,
+    "function-name": false,
+    "jsx-boolean-value": [
+      true,
+      "never"
+    ],
+    "import-name": [
+      true,
+      {
+        "reactDom": "ReactDOM",
+        "react": "React"
+      }
+    ]
+  },
+  "rulesDirectory": []
+}
