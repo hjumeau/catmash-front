@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './scenes/Home';
 import Ratings from './scenes/Ratings';
 
-export default function App() {
+const App: React.FunctionComponent = () => {
   return (
     <Router>
       <Switch>
@@ -12,4 +12,6 @@ export default function App() {
       </Switch>
     </Router>
   );
-}
+};
+
+export default App;

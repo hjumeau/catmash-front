@@ -13,12 +13,12 @@
       true,
       "never"
     ],
-    "import-name": [
+    "import-name": false,
+    "variable-name": [
       true,
-      {
-        "reactDom": "ReactDOM",
-        "react": "React"
-      }
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case"
     ]
   },
   "rulesDirectory": []
